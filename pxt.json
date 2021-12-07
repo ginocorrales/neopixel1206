@@ -5,7 +5,8 @@
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "brightboard": "github:brightwearables/pxt-microbit-brightboard#v0.7.2"
+        "brightboard": "github:brightwearables/pxt-microbit-brightboard#v0.7.2",
+        "neopixel": "github:microsoft/pxt-neopixel#v0.7.3"
     },
     "files": [
         "main.blocks",
