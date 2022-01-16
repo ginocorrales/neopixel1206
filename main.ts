@@ -11,7 +11,7 @@ basic.forever(function () {
         ring.setPixelColor(index, neopixel.colors(NeoPixelColors.Blue))
         ring.show()
         basic.pause(15)
-        ring.setPixelColor(index, neopixel.colors(NeoPixelColors.Indigo))
+        ring.setPixelColor(index, neopixel.colors(NeoPixelColors.Green))
         ring.show()
     }
 })
