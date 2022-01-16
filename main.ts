@@ -10,8 +10,8 @@ basic.forever(function () {
     for (let index = 0; index <= 23; index++) {
         ring.setPixelColor(index, neopixel.colors(NeoPixelColors.Blue))
         ring.show()
-        basic.pause(5)
-        ring.setPixelColor(index, neopixel.colors(NeoPixelColors.White))
+        basic.pause(15)
+        ring.setPixelColor(index, neopixel.colors(NeoPixelColors.Indigo))
         ring.show()
     }
 })
